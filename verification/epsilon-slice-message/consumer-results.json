@@ -1,0 +1,32 @@
+[
+  {
+    "label": "baseline",
+    "sourceCommit": "87a7b9d57689f6579db2da795ab8deeab29cb724",
+    "installedModuleVersion": "v0.0.0-20260924145934-87a7b9d57689",
+    "realTestingTExpectedFailures": 18,
+    "callerContextVisible": 0,
+    "passingAssertionDoesNotFormatMessage": true,
+    "testCommandExit": 1,
+    "note": "exit1 is required because these are genuine failing consumer assertions through real testing.T; source module installed from canonical Git blobs in a local module ZIP, no replace directive"
+  },
+  {
+    "label": "original-patch",
+    "sourceCommit": "774de4df5057d4a201fa44dc59f25976107c1a4e",
+    "installedModuleVersion": "v0.0.0-20261031145626-774de4df5057",
+    "realTestingTExpectedFailures": 18,
+    "callerContextVisible": 6,
+    "passingAssertionDoesNotFormatMessage": false,
+    "testCommandExit": 1,
+    "note": "exit1 is required because these are genuine failing consumer assertions through real testing.T; source module installed from canonical Git blobs in a local module ZIP, no replace directive"
+  },
+  {
+    "label": "candidate",
+    "sourceCommit": "593ed2fdda1a2ca9730be402c1b906b6c90ce4ab",
+    "installedModuleVersion": "v0.0.0-20261031145759-593ed2fdda1a",
+    "realTestingTExpectedFailures": 18,
+    "callerContextVisible": 18,
+    "passingAssertionDoesNotFormatMessage": true,
+    "testCommandExit": 1,
+    "note": "exit1 is required because these are genuine failing consumer assertions through real testing.T; source module installed from canonical Git blobs in a local module ZIP, no replace directive"
+  }
+]

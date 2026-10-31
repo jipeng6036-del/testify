@@ -1,0 +1,200 @@
+--- FAIL: TestInEpsilonSliceFailureContext (0.00s)
+    --- FAIL: TestInEpsilonSliceFailureContext/different_types (0.00s)
+        --- FAIL: TestInEpsilonSliceFailureContext/different_types/function (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:473: 
+                			Error Trace:	
+                			Error:      	Object expected to be of type []float64, but was []float32
+        --- FAIL: TestInEpsilonSliceFailureContext/different_types/method (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:473: 
+                			Error Trace:	
+                			Error:      	Object expected to be of type []float64, but was []float32
+    --- FAIL: TestInEpsilonSliceFailureContext/shorter_actual (0.00s)
+        --- FAIL: TestInEpsilonSliceFailureContext/shorter_actual/function (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:844: 
+                			Error Trace:	
+                			Error:      	"[1]" should have 2 item(s), but has 1
+        --- FAIL: TestInEpsilonSliceFailureContext/shorter_actual/method (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:844: 
+                			Error Trace:	
+                			Error:      	"[1]" should have 2 item(s), but has 1
+    --- FAIL: TestInEpsilonSliceFailureContext/longer_actual (0.00s)
+        --- FAIL: TestInEpsilonSliceFailureContext/longer_actual/function (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:844: 
+                			Error Trace:	
+                			Error:      	"[1 2]" should have 1 item(s), but has 2
+        --- FAIL: TestInEpsilonSliceFailureContext/longer_actual/method (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:844: 
+                			Error Trace:	
+                			Error:      	"[1 2]" should have 1 item(s), but has 2
+    --- FAIL: TestInEpsilonSliceFailureContext/element (0.00s)
+        --- FAIL: TestInEpsilonSliceFailureContext/element/function (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:1592: 
+                			Error Trace:	
+                			Error:      	Relative error is too high: 0.01 (expected)
+                			            	        < 0.5 (actual)
+                			Messages:   	at index 1
+        --- FAIL: TestInEpsilonSliceFailureContext/element/method (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:1592: 
+                			Error Trace:	
+                			Error:      	Relative error is too high: 0.01 (expected)
+                			            	        < 0.5 (actual)
+                			Messages:   	at index 1
+    --- FAIL: TestInEpsilonSliceFailureContext/non_numerical (0.00s)
+        --- FAIL: TestInEpsilonSliceFailureContext/non_numerical/function (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:1586: 
+                			Error Trace:	
+                			Error:      	Parameters must be numerical
+                			Messages:   	at index 0
+        --- FAIL: TestInEpsilonSliceFailureContext/non_numerical/method (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:1586: 
+                			Error Trace:	
+                			Error:      	Parameters must be numerical
+                			Messages:   	at index 0
+    --- FAIL: TestInEpsilonSliceFailureContext/zero_expected (0.00s)
+        --- FAIL: TestInEpsilonSliceFailureContext/zero_expected/function (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:1586: 
+                			Error Trace:	
+                			Error:      	expected value must have a value other than zero to calculate the relative error
+                			Messages:   	at index 0
+        --- FAIL: TestInEpsilonSliceFailureContext/zero_expected/method (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:1586: 
+                			Error Trace:	
+                			Error:      	expected value must have a value other than zero to calculate the relative error
+                			Messages:   	at index 0
+    --- FAIL: TestInEpsilonSliceFailureContext/NaN_actual (0.00s)
+        --- FAIL: TestInEpsilonSliceFailureContext/NaN_actual/function (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:1586: 
+                			Error Trace:	
+                			Error:      	actual value must not be NaN
+                			Messages:   	at index 0
+        --- FAIL: TestInEpsilonSliceFailureContext/NaN_actual/method (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:1586: 
+                			Error Trace:	
+                			Error:      	actual value must not be NaN
+                			Messages:   	at index 0
+    --- FAIL: TestInEpsilonSliceFailureContext/NaN_tolerance (0.00s)
+        --- FAIL: TestInEpsilonSliceFailureContext/NaN_tolerance/function (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:1582: 
+                			Error Trace:	
+                			Error:      	epsilon must not be NaN
+                			Messages:   	at index 0
+        --- FAIL: TestInEpsilonSliceFailureContext/NaN_tolerance/method (0.00s)
+            epsilon_slice_message_test.go:46: caller context missing:
+                	assertions.go:1582: 
+                			Error Trace:	
+                			Error:      	epsilon must not be NaN
+                			Messages:   	at index 0
+--- FAIL: TestInEpsilonSliceFormatsMessageOnlyOnFailure (0.00s)
+    epsilon_slice_message_test.go:76: index or caller context missing:
+        	assertions.go:1592: 
+        			Error Trace:	
+        			Error:      	Relative error is too high: 0.01 (expected)
+        			            	        < 0.3333333333333333 (actual)
+        			Messages:   	at index 2
+--- FAIL: TestInEpsilonSliceMessageFormatting (0.00s)
+    --- FAIL: TestInEpsilonSliceMessageFormatting/literal_percent (0.00s)
+        epsilon_slice_message_test.go:102: want "at index 1: 100% complete" in output:
+            	assertions.go:1592: 
+            			Error Trace:	
+            			Error:      	Relative error is too high: 0.01 (expected)
+            			            	        < 0.5 (actual)
+            			Messages:   	at index 1
+    --- FAIL: TestInEpsilonSliceMessageFormatting/indexed_format (0.00s)
+        epsilon_slice_message_test.go:102: want "at index 1: batch 7" in output:
+            	assertions.go:1592: 
+            			Error Trace:	
+            			Error:      	Relative error is too high: 0.01 (expected)
+            			            	        < 0.5 (actual)
+            			Messages:   	at index 1
+FAIL
+FAIL	github.com/stretchr/testify/assert	0.031s
+--- FAIL: TestInEpsilonSliceFailureContext (0.00s)
+    --- FAIL: TestInEpsilonSliceFailureContext/different_types (0.00s)
+        --- FAIL: TestInEpsilonSliceFailureContext/different_types/function (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	
+                	Error:      	Object expected to be of type []float64, but was []float32
+        --- FAIL: TestInEpsilonSliceFailureContext/different_types/method (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	
+                	Error:      	Object expected to be of type []float64, but was []float32
+        --- FAIL: TestInEpsilonSliceFailureContext/different_types/formatted_function (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	
+                	Error:      	Object expected to be of type []float64, but was []float32
+        --- FAIL: TestInEpsilonSliceFailureContext/different_types/formatted_method (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	C:/Users/lyz/AppData/Local/Temp/github-pr-1541-go/go1.27.3/go/src/runtime/asm_amd64.s:1264
+                	Error:      	Object expected to be of type []float64, but was []float32
+    --- FAIL: TestInEpsilonSliceFailureContext/length (0.00s)
+        --- FAIL: TestInEpsilonSliceFailureContext/length/function (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	
+                	Error:      	"[1]" should have 2 item(s), but has 1
+        --- FAIL: TestInEpsilonSliceFailureContext/length/method (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	
+                	Error:      	"[1]" should have 2 item(s), but has 1
+        --- FAIL: TestInEpsilonSliceFailureContext/length/formatted_function (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	
+                	Error:      	"[1]" should have 2 item(s), but has 1
+        --- FAIL: TestInEpsilonSliceFailureContext/length/formatted_method (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	C:/Users/lyz/AppData/Local/Temp/github-pr-1541-go/go1.27.3/go/src/runtime/asm_amd64.s:1264
+                	Error:      	"[1]" should have 2 item(s), but has 1
+    --- FAIL: TestInEpsilonSliceFailureContext/element (0.00s)
+        --- FAIL: TestInEpsilonSliceFailureContext/element/function (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	
+                	Error:      	Relative error is too high: 0.01 (expected)
+                	            	        < 0.5 (actual)
+                	Messages:   	at index 1
+        --- FAIL: TestInEpsilonSliceFailureContext/element/method (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	
+                	Error:      	Relative error is too high: 0.01 (expected)
+                	            	        < 0.5 (actual)
+                	Messages:   	at index 1
+        --- FAIL: TestInEpsilonSliceFailureContext/element/formatted_function (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	
+                	Error:      	Relative error is too high: 0.01 (expected)
+                	            	        < 0.5 (actual)
+                	Messages:   	at index 1
+        --- FAIL: TestInEpsilonSliceFailureContext/element/formatted_method (0.00s)
+            epsilon_slice_message_test.go:57: caller context missing:
+                
+                	Error Trace:	C:/Users/lyz/AppData/Local/Temp/github-pr-1541-go/go1.27.3/go/src/runtime/asm_amd64.s:1264
+                	Error:      	Relative error is too high: 0.01 (expected)
+                	            	        < 0.5 (actual)
+                	Messages:   	at index 1
+FAIL
+FAIL	github.com/stretchr/testify/require	0.030s
+FAIL

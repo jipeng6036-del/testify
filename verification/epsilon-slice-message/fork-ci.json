@@ -1,0 +1,81 @@
+{
+  "head": "593ed2fdda1a2ca9730be402c1b906b6c90ce4ab",
+  "run": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065",
+  "workflowPath": ".github/workflows/main.yml",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 124571218002,
+      "name": "check-actions-hashes",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218002"
+    },
+    {
+      "id": 124571218137,
+      "name": "test-old-go (1.17)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218137"
+    },
+    {
+      "id": 124571218149,
+      "name": "test-old-go (1.21)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218149"
+    },
+    {
+      "id": 124571218184,
+      "name": "test-old-go (1.24)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218184"
+    },
+    {
+      "id": 124571218188,
+      "name": "build (stable)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218188"
+    },
+    {
+      "id": 124571218190,
+      "name": "test-old-go (1.18)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218190"
+    },
+    {
+      "id": 124571218205,
+      "name": "test-old-go (1.23)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218205"
+    },
+    {
+      "id": 124571218216,
+      "name": "test-old-go (1.19)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218216"
+    },
+    {
+      "id": 124571218218,
+      "name": "test-old-go (1.22)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218218"
+    },
+    {
+      "id": 124571218225,
+      "name": "test-old-go (1.20)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218225"
+    },
+    {
+      "id": 124571218232,
+      "name": "build (oldstable)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218232"
+    },
+    {
+      "id": 124571218250,
+      "name": "test-old-go (1.25)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jipeng6036-del/testify/actions/runs/41212832065/job/124571218250"
+    }
+  ],
+  "unchangedUpstreamWorkflow": true
+}

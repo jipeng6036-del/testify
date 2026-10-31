@@ -1,0 +1,75 @@
+{
+  "head": "593ed2fdda1a2ca9730be402c1b906b6c90ce4ab",
+  "tree": "0b1b43968d7c9a6bcc8dbe68b342d072ef6022c7",
+  "linuxTreeMatchesCandidate": true,
+  "commands": {
+    "generate": 0,
+    "format": 0,
+    "vet": 0,
+    "go test -race -count=1 -json ./...": 0
+  },
+  "packageResults": [
+    {
+      "Time": "2026-10-31T14:59:26.85648978Z",
+      "Action": "skip",
+      "Package": "github.com/stretchr/testify/assert/yaml",
+      "Elapsed": 0
+    },
+    {
+      "Time": "2026-10-31T14:59:26.856503573Z",
+      "Action": "skip",
+      "Package": "github.com/stretchr/testify/http",
+      "Elapsed": 0
+    },
+    {
+      "Time": "2026-10-31T14:59:27.092379168Z",
+      "Action": "pass",
+      "Package": "github.com/stretchr/testify",
+      "Elapsed": 1.012
+    },
+    {
+      "Time": "2026-10-31T14:59:27.86844086Z",
+      "Action": "pass",
+      "Package": "github.com/stretchr/testify/assert/internal/unsafetests",
+      "Elapsed": 1.012
+    },
+    {
+      "Time": "2026-10-31T14:59:27.87479335Z",
+      "Action": "pass",
+      "Package": "github.com/stretchr/testify/internal/difflib",
+      "Elapsed": 1.018
+    },
+    {
+      "Time": "2026-10-31T14:59:27.876407205Z",
+      "Action": "pass",
+      "Package": "github.com/stretchr/testify/internal/spew",
+      "Elapsed": 1.02
+    },
+    {
+      "Time": "2026-10-31T14:59:27.918114313Z",
+      "Action": "pass",
+      "Package": "github.com/stretchr/testify/mock",
+      "Elapsed": 1.061
+    },
+    {
+      "Time": "2026-10-31T14:59:27.981538204Z",
+      "Action": "pass",
+      "Package": "github.com/stretchr/testify/require",
+      "Elapsed": 1.125
+    },
+    {
+      "Time": "2026-10-31T14:59:29.990256234Z",
+      "Action": "pass",
+      "Package": "github.com/stretchr/testify/assert",
+      "Elapsed": 3.134
+    },
+    {
+      "Time": "2026-10-31T14:59:32.96571682Z",
+      "Action": "pass",
+      "Package": "github.com/stretchr/testify/suite",
+      "Elapsed": 5.104
+    }
+  ],
+  "generatedTrackedChanges": false,
+  "note": "Raw go-test JSON includes intentional failures in nested suite self-tests; these are not failing package exits or new regressions. All package results and process exit are successful. Do not report raw pass-event totals as unique test counts."
+}
